@@ -34,7 +34,7 @@ pets = [
 ]
 print("-----------------------------")
 for curr_pet in pets:
-    pet = Cat(name = curr_pet.get("name"),gender = curr_pet.get("gender"), age = curr_pet.get("age"))
+    pet = Cats(name = curr_pet.get("name"),gender = curr_pet.get("gender"), age = curr_pet.get("age"))
     print(pet.name)
     print(pet.gender)
     print(pet.age)
